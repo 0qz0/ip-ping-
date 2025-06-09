@@ -1,0 +1,25 @@
+alert:
+  desktop_notification: true
+  email:
+    enabled: false
+    smtp_port: 587
+    smtp_server: smtp.example.com
+  sound_alert: false
+ping:
+  failure_threshold: 3
+  interval: 5.0
+  timeout: 1.0
+storage:
+  alert_history_file: data/alert_history.json
+  ip_list_file: data/ip_list.json
+  log_file: logs/ping_monitor.log
+ui:
+  refresh_interval: 1000
+  status_colors:
+    offline: '#F44336'
+    online: '#4CAF50'
+    warning: '#FFC107'
+  theme: light
+  window_size:
+  - 800
+  - 600

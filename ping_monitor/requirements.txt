@@ -1,0 +1,7 @@
+ping3==4.0.4
+PyQt6==6.6.1
+pandas==2.2.0
+pywin32==306; platform_system == "Windows"
+plyer==2.1.0
+python-dotenv==1.0.1
+SQLAlchemy==2.0.25 
